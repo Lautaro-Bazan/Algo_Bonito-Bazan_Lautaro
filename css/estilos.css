@@ -1,0 +1,67 @@
+*{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    
+}
+
+.tamaño{
+    width: 100%;
+}
+.tamaño img{
+    width: 100%;
+}
+.cont-logo{
+    width: 50px;
+}
+.cont-logo img{
+    width: 100%;
+    border-radius: 30px;
+}
+.cont-secciones{
+    width: 300px;
+}
+.cont-secciones img{
+    width: 100%;
+}
+a{
+    text-decoration: none;
+}
+.ContainerNosotros_imglocal{
+    width: 50%;
+}
+.ContainerNosotros_imglocal img{
+    width: 100%;
+}
+.cont-categorias{
+    width: 280px;
+}
+.cont-categorias img{
+    width: 100%;
+}
+.containerfooter{
+    display: flex;
+    justify-content:space-around;
+}
+.style_navbar{
+    background-color: #e12d90ae;
+    margin-bottom: 10px;
+}
+.parrafos{
+    margin: 5px 50px;
+}
+.centrarh{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 10px 20px 0px;
+}
+.logofooter{
+    width: 300px;
+}
+.logofooter img{
+    width: 100%;
+}
+footer{
+    background-color: #e12d90ae;
+}
+ 
