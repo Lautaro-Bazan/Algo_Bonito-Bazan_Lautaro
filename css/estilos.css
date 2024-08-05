@@ -51,17 +51,118 @@ a{
 }
 .centrarh{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     text-align: center;
     margin: 10px 20px 0px;
 }
+
+
+.categorias1 {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 50px;
+    text-align: center;
+    margin: 20px 0px 0px 0px;
+}
+.categorias2{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 50px;
+    text-align: center;
+    margin: 50px 0;
+}
+
+
+
+
+
+
+
+
+
+
 .logofooter{
     width: 300px;
 }
 .logofooter img{
     width: 100%;
 }
-footer{
+.containerfoot{
     background-color: #e12d90ae;
+    padding: 50px 0px;
 }
+.containerfoot-footercontainer{
+    max-width: 1200px;
+}
+.containerfoot-footercontainer-row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.containerfoot-footercontainer-row-img{
+    width: 300px;
+
+}
+.containerfoot-footercontainer-row-img img{
+    width: 100%;
+}
+.containerfoot-footercontainer-row-links{
+    width: 23%;
+    padding: 0px 15px;
+}
+.containerfoot-footercontainer-row-links h4{
+    font-size: 20px;
+    margin-bottom: 25px;
+    border-bottom: 2px solid rgb(214, 30, 150);
+    padding-bottom: 5px;
+    display: inline-block;
+}
+.containerfoot-footercontainer-row-links ul li a{
+    font-size: 18px;
+    text-decoration: none;
+    color: #000000;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+.containerfoot-footercontainer-row-links ul li a:hover{
+    color: #3432329f;
+}
+.containerfoot-footercontainer-row-links-redessociales{
+    width: 130px;
+}
+.containerfoot-footercontainer-row-links-redessociales a{
+    display: inline-block;
+    min-height: 40px;
+    width: 40px;
+    background-color: #dc060633;
+    max-width: 0px 10px 10px 0px;
+    text-align: center;
+    border-radius: 50%;
+    color: #ffffff;
+    line-height: 40px;
+}
+.containerfoot-footercontainer-row-links ul{
+    list-style-type: none;
+    padding: 0px;
+}
+.containerfoot-footercontainer-row-links-redessociales a:hover{
+    background-color: #00ffff;
+}
+
+@media(max-width:991px){
+    .containerfoot-footercontainer-row{
+        text-align: center;
+    }
+    .containerfoot-footercontainer-row-links{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .containerfoot-footercontainer-row-links-redessociales{
+        text-align: center;
+    }
+    
+}
+
  
