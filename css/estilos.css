@@ -3,7 +3,10 @@
     font-weight: 400;
     
 }
-
+.center{
+    display: flex;
+    justify-content: right;
+}
 .tamaño{
     width: 100%;
 }
@@ -17,9 +20,7 @@
     width: 100%;
     border-radius: 30px;
 }
-.cont-secciones{
-    width: 300px;
-}
+
 .cont-secciones img{
     width: 100%;
 }
@@ -57,31 +58,6 @@ a{
 }
 
 
-.categorias1 {
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    gap: 50px;
-    text-align: center;
-    margin: 20px 0px 0px 0px;
-}
-.categorias2{
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    gap: 50px;
-    text-align: center;
-    margin: 50px 0;
-}
-
-
-
-
-
-
-
-
-
 
 .logofooter{
     width: 300px;
@@ -92,6 +68,7 @@ a{
 .containerfoot{
     background-color: #e12d90ae;
     padding: 50px 0px;
+    margin-top: 20px;
 }
 .containerfoot-footercontainer{
     max-width: 1200px;
