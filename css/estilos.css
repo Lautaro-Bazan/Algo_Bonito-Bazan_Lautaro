@@ -103,7 +103,6 @@ a{
 }
 .containerfoot-footercontainer-row-img{
     width: 300px;
-
 }
 .containerfoot-footercontainer-row-img img{
     width: 100%;
@@ -162,7 +161,29 @@ a{
     .containerfoot-footercontainer-row-links-redessociales{
         text-align: center;
     }
-    
+    .navbar-expand-lg{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+
+    }
+    .navbar-collapse{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+}
+@media(min-width:992px){
+    .navbar-expand-lg{
+        display: flex;
+        flex-direction: row-reverse;
+        flex-basis: auto;
+    }
+    .navbar-collapse{
+        display: flex;
+        flex-direction: row-reverse;
+        flex-basis: auto;
+    }
 }
 
  
