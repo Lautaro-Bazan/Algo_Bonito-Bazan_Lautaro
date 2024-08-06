@@ -56,9 +56,6 @@ a{
     text-align: center;
     margin: 10px 20px 0px;
 }
-
-
-
 .logofooter{
     width: 300px;
 }
@@ -70,45 +67,45 @@ a{
     padding: 50px 0px;
     margin-top: 20px;
 }
-.containerfoot-footercontainer{
+.containerfoot__footercontainer{
     max-width: 1200px;
 }
-.containerfoot-footercontainer-row{
+.containerfoot__footercontainer__row{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
-.containerfoot-footercontainer-row-img{
+.containerfoot__footercontainer__row__img{
     width: 300px;
 }
-.containerfoot-footercontainer-row-img img{
+.containerfoot__footercontainer__row__img img{
     width: 100%;
 }
-.containerfoot-footercontainer-row-links{
+.containerfoot__footercontainer__row__links{
     width: 23%;
     padding: 0px 15px;
 }
-.containerfoot-footercontainer-row-links h4{
+.containerfoot__footercontainer__row__links h4{
     font-size: 20px;
     margin-bottom: 25px;
     border-bottom: 2px solid rgb(214, 30, 150);
     padding-bottom: 5px;
     display: inline-block;
 }
-.containerfoot-footercontainer-row-links ul li a{
+.containerfoot__footercontainer__row__links ul li a{
     font-size: 18px;
     text-decoration: none;
     color: #000000;
     display: inline-block;
     margin-bottom: 15px;
 }
-.containerfoot-footercontainer-row-links ul li a:hover{
+.containerfoot__footercontainer__row__links ul li a:hover{
     color: #3432329f;
 }
-.containerfoot-footercontainer-row-links-redessociales{
+.containerfoot__footercontainer__row__links__redessociales{
     width: 130px;
 }
-.containerfoot-footercontainer-row-links-redessociales a{
+.containerfoot__footercontainer__row__links__redessociales a{
     display: inline-block;
     min-height: 40px;
     width: 40px;
@@ -119,44 +116,44 @@ a{
     color: #ffffff;
     line-height: 40px;
 }
-.containerfoot-footercontainer-row-links ul{
+.containerfoot__footercontainer__row__links ul{
     list-style-type: none;
     padding: 0px;
 }
-.containerfoot-footercontainer-row-links-redessociales a:hover{
+.containerfoot__footercontainer__row__links__redessociales a:hover{
     background-color: #00ffff;
 }
 
 @media(max-width:991px){
-    .containerfoot-footercontainer-row{
+    .containerfoot__footercontainer__row{
         text-align: center;
     }
-    .containerfoot-footercontainer-row-links{
+    .containerfoot__footercontainer__row__links{
         width: 100%;
         margin-bottom: 30px;
     }
-    .containerfoot-footercontainer-row-links-redessociales{
+    .containerfoot__footercontainer__row__links__redessociales{
         text-align: center;
     }
-    .navbar-expand-lg{
+    .navbar__expand__lg{
         display: flex;
         justify-content: center;
         text-align: center;
 
     }
-    .navbar-collapse{
+    .navbar__collapse{
         display: flex;
         justify-content: center;
         text-align: center;
     }
 }
 @media(min-width:992px){
-    .navbar-expand-lg{
+    .navbar__expand__lg{
         display: flex;
         flex-direction: row-reverse;
         flex-basis: auto;
     }
-    .navbar-collapse{
+    .navbar__collapse{
         display: flex;
         flex-direction: row-reverse;
         flex-basis: auto;
