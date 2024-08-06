@@ -135,25 +135,25 @@ a{
     .containerfoot__footercontainer__row__links__redessociales{
         text-align: center;
     }
-    .navbar__expand__lg{
+    .navbar-expand-lg{
         display: flex;
         justify-content: center;
         text-align: center;
 
     }
-    .navbar__collapse{
+    .navbar-collapse{
         display: flex;
         justify-content: center;
         text-align: center;
     }
 }
 @media(min-width:992px){
-    .navbar__expand__lg{
+    .navbar-expand-lg{
         display: flex;
         flex-direction: row-reverse;
         flex-basis: auto;
     }
-    .navbar__collapse{
+    .navbar-collapse{
         display: flex;
         flex-direction: row-reverse;
         flex-basis: auto;
