@@ -1,0 +1,26 @@
+@media(max-width:991px){
+    .containerfoot__footercontainer__row{
+        text-align: center;
+        &__links{
+            width: 100%;
+            margin-bottom: 30px;
+            &__redessociales{
+                text-align: center;
+            }
+        }
+    }
+    .navbar-expand-lg{
+        @include flex-center;
+    }
+    .navbar-collapse{
+        @include flex-center;
+    }
+}
+@media(min-width:992px){
+    .navbar-expand-lg{
+        @include flex-row-auto;
+    }
+    .navbar-collapse{
+        @include flex-row-auto;
+    }
+}

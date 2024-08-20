@@ -1,0 +1,11 @@
+.style_navbar{
+    background-color: $color-principal;
+    margin-bottom: 10px;
+}
+.cont-logo{
+    width: 50px;
+    & img{
+        width: 100%;
+        border-radius: 30px;
+    }
+}

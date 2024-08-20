@@ -1,0 +1,43 @@
+.center{
+    display: flex;
+    justify-content: right;
+}
+.tamaño{
+    width: 100%;
+    & img{
+        width: 100%;
+    }
+}
+.cont-logo{
+    width: 50px;
+    & img{
+        width: 100%;
+        border-radius: 30px;
+    }
+}
+.cont-secciones{
+    & img{
+    width: 100%;
+    }
+}
+a{
+    text-decoration: none;
+}
+.ContainerNosotros_imglocal{
+    width: 50%;
+    img{
+        width: 100%;
+    }
+}
+.cont-categorias{
+    width: 280px;
+    & img{
+        width: 100%;
+    }
+}
+.parrafos{
+    margin: 5px 50px;
+}
+.centrarh{
+    @include flex-centrarh;
+}

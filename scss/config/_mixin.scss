@@ -1,0 +1,20 @@
+@mixin titles($fw){
+    font-family: $font;
+    font-weight: $fw;
+}
+@mixin flex-center{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+@mixin flex-row-auto{
+    display: flex;
+    flex-direction: row-reverse;
+    flex-basis: auto;
+}
+@mixin flex-centrarh{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin: 10px 20px 0px;
+}
